@@ -1,17 +1,6 @@
 # updatefilenamesinafolder
 This script is used to update all the file names inside a folder.
 
-import os
+Commit 1 - June 14, 2019
 
-path = 'Your Path goes here'
-
-new_name = "New file name"
-
-for file in os.listdir(path):
-
-    dst = new_name + file.split("-")[-1]
-    src = path + file
-    dst = path + dst
-    os.rename(src,dst)
-
-print("Completed all files!!!")
+For any queries, or explanations please send an email over: shikhargairola2012@gmail.com
